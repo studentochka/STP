@@ -68,8 +68,9 @@ class FileBatchEnumerator
   slack_notifier.notify("Hello via Slack!")
   
   puts "\n=== Надсилання батчів через Notifier ==="
-  # Надсилаємо кожен батч через Email (можна замінити на SlackAdapter.new)
+  
   enumerator.each_with_index do |batch, index|
     email_notifier.notify("Batch ##{index + 1}: #{batch.join(', ')}")
   end
+
   
