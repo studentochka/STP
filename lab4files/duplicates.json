@@ -1,0 +1,23 @@
+{
+  "scanned_files": 7,
+  "total_saved_bytes": 118,
+  "groups": [
+    {
+      "size_bytes": 48,
+      "saved_if_dedup_bytes": 48,
+      "files": [
+        "c.png",
+        "c_copy.png"
+      ]
+    },
+    {
+      "size_bytes": 35,
+      "saved_if_dedup_bytes": 70,
+      "files": [
+        "photos/a.jpg",
+        "photos/a_copy.jpg",
+        "photos/backup/a_copy2.jpg"
+      ]
+    }
+  ]
+}
